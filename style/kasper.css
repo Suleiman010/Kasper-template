@@ -373,3 +373,134 @@ header nav .form i {
   top: 1px;
 }
 /* end design */
+/* start portfolio */
+.portfolio {
+  padding-top: var(--section-padding);
+  padding-bottom: var(--section-padding);
+}
+.portfolio .container .shuffle {
+  display: flex;
+  justify-content: center;
+}
+.portfolio .container .shuffle li {
+  padding: 10px;
+}
+.portfolio .container .shuffle .active {
+  background-color: var(--primary-color);
+  color: white;
+}
+.portfolio .images-container {
+  margin-top: 60px;
+  /* display: grid; */
+  /* grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); */
+  display: flex;
+  flex-wrap: wrap;
+}
+.portfolio .images-container .box {
+  /* margin: 40px auto; */
+  position: relative;
+  overflow: hidden;
+}
+@media (min-width: 768px) {
+  .portfolio .images-container .box {
+    flex-basis: 50%;
+  }
+  @media (min-width: 1199px) {
+    .portfolio .images-container .box {
+      flex-basis: 25%;
+    }
+  }
+}
+.portfolio .images-container .box img {
+  max-width: 100%;
+  transition: var(--transion-time);
+}
+.portfolio .images-container .box:hover img {
+  transform: rotate(5deg) scale(1.1);
+}
+.portfolio .images-container .box .caption {
+  position: absolute;
+  left: 0;
+  bottom: -100%;
+  background-color: white;
+  width: 100%;
+  transition: var(--transion-time);
+  padding: 20px;
+}
+.portfolio .images-container .box .caption h4 {
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+.portfolio .images-container .box .caption p {
+  font-weight: normal;
+  color: var(--primary-color);
+}
+.portfolio .images-container .box:hover .caption {
+  bottom: 0;
+}
+.portfolio .more {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 15px 20px;
+  display: block;
+  width: fit-content;
+  margin: 30px auto;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+/* end portfolio */
+/* start video */
+.video {
+  position: relative;
+}
+.video::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 40%);
+}
+.video video {
+  width: 100%;
+}
+.video .text {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 50px;
+  background-color: var(--transparent-color);
+  color: white;
+  text-align: center;
+}
+.video .text h2 {
+  font-weight: normal;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+.video .text p {
+  margin-bottom: 20px;
+}
+.video .text button {
+  background-color: black;
+  color: white;
+  border: none;
+  text-decoration: none;
+  padding: 10px 20px;
+  text-transform: uppercase;
+}
+/* end video */
+/* start about */
+.about {
+  padding-top: var(--section-padding);
+  padding-bottom: var(--section-padding);
+  position: relative;
+  overflow: hidden;
+}
+.about .image {
+  position: absolute;
+  bottom: -100%;
+}
+/* end about */
