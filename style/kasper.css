@@ -128,6 +128,7 @@ header nav {
 header nav .toggle-menu {
   color: white;
   font-size: 22px;
+  transition: var(--transion-time);
 }
 @media (min-width: 768px) {
   header nav .toggle-menu {
@@ -140,14 +141,15 @@ header nav ul {
 @media (max-width: 767px) {
   header nav ul {
     display: none;
+    transition: var(--transion-time);
   }
   header nav .toggle-menu:hover + ul {
     display: flex;
     flex-direction: column;
     position: absolute;
     top: 100%;
-    width: 100%;
-    left: 0;
+    width: 50%;
+    left: 60%;
     background-color: rgba(0, 0, 0, 0.425);
   }
   header nav .toggle-menu:hover + ul li a {
@@ -275,6 +277,20 @@ header nav .form i {
   background-color: var(--primary-color);
   border-color: var(--primary-color);
 }
+/* end landing section */
+/* start back to top button  */
+.back-to-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: var(--primary-color);
+  color: white;
+  padding: 10px 15px;
+  z-index: 50;
+  align-items: center;
+  text-decoration: none;
+}
+/* end back to top button */
 /* start services */
 .services {
   padding-top: var(--section-padding);
@@ -985,3 +1001,50 @@ header nav .form i {
   }
 }
 /* end contact */
+/* start footer */
+.footer {
+  padding-top: calc(var(--section-padding) / 2);
+  padding-bottom: calc(var(--section-padding) / 2);
+  background-image: url("../images/footer.jpg");
+  max-width: 100%;
+  height: auto;
+  background-size: cover;
+  color: white;
+  position: relative;
+  text-align: center;
+}
+.footer::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgb(0 0 0 / 50%);
+}
+.footer .container {
+  position: relative;
+}
+.footer img {
+  margin-bottom: 20px;
+}
+.footer p:not(.copy-right) {
+  text-transform: uppercase;
+  padding: 20px;
+  border-bottom: 1px solid white;
+  width: fit-content;
+  margin: 20px auto;
+  font-size: 22px;
+}
+.footer .social-icons i {
+  padding: 10px 15px;
+  font-size: 22px;
+}
+.footer .copy-right {
+  margin-top: 60px;
+}
+.footer .copy-right span {
+  font-weight: bold;
+  color: var(--primary-color);
+}
+/* end footer */
