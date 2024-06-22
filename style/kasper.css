@@ -116,7 +116,7 @@ header .container::after {
   left: 15px;
 }
 header .logo img {
-  height: 60px;
+  height: 40px;
 }
 header nav {
   flex: 1;
@@ -723,7 +723,7 @@ header nav .form i {
   padding-top: var(--section-padding);
   padding-bottom: var(--section-padding);
   text-align: center;
-  background-image: url("../images/stats.png");
+  background-image: url("../images/subscribe.jpg");
   background-size: cover;
   position: relative;
   color: white;
@@ -1035,6 +1035,10 @@ header nav .form i {
   width: fit-content;
   margin: 20px auto;
   font-size: 22px;
+}
+.footer .social-icons a {
+  text-decoration: none;
+  color: white;
 }
 .footer .social-icons i {
   padding: 10px 15px;
