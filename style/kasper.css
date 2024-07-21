@@ -405,6 +405,8 @@ header nav .form i {
 }
 .portfolio .container .shuffle li {
     padding: 10px;
+    transition: var(--transion-time);
+    cursor: pointer;
 }
 .portfolio .container .shuffle .active {
     background-color: var(--primary-color);
@@ -675,6 +677,7 @@ header nav .form i {
     border-radius: 50%;
     border: 1px solid #aaa;
     margin-right: 10px;
+    transition: var(--transion-time);
 }
 .our-skills .testimonials .bullets .active {
     background-color: var(--primary-color);

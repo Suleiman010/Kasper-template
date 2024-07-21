@@ -20,7 +20,13 @@ document.querySelectorAll(".bullets li").forEach((item) => {
     item.addEventListener("click", changeColor);
 });
 
-function rightArrow(event) {
-    const rightArr = document.querySelector(".landing i");
-    console.log("working");
+function changeShuffle(event) {
+    const shuffleItems = document.querySelectorAll(".portfolio .shuffle li");
+    shuffleItems.forEach((item) => {
+        item.classList.remove("active");
+    });
+    event.target.classList.add("active");
 }
+document.querySelectorAll(".portfolio .shuffle li").forEach((item) => {
+    item.addEventListener("click", changeShuffle);
+});
