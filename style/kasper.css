@@ -272,6 +272,7 @@ header nav .form i {
     border: 1px solid white;
     margin-left: 20px;
     border-radius: 50%;
+    transition: var(--transion-time);
 }
 .landing .bullets li.active {
     background-color: var(--primary-color);
