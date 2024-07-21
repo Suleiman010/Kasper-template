@@ -1,588 +1,603 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Kasper | tempalte</title>
-    <!-- Render all element normally -->
-    <link rel="stylesheet" href="style/normalize.css" />
-    <!-- Font awesome library -->
-    <link rel="stylesheet" href="style/all.min.css" />
-    <!-- Google Font (work sans) -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
-      rel="stylesheet"
-    />
-    <!-- Main css -->
-    <link rel="stylesheet" href="style/kasper.css" />
-  </head>
-  <body>
-    <header>
-      <div class="container">
-        <a href="#" class="logo">
-          <img src="images/logo.png" alt="Logo" />
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Kasper | tempalte</title>
+        <!-- Render all element normally -->
+        <link rel="stylesheet" href="style/normalize.css" />
+        <!-- Font awesome library -->
+        <link rel="stylesheet" href="style/all.min.css" />
+        <!-- Google Font (work sans) -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+            rel="stylesheet"
+        />
+        <!-- Main css -->
+        <link rel="stylesheet" href="style/kasper.css" />
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <a href="#" class="logo">
+                    <img src="images/logo.png" alt="Logo" />
+                </a>
+                <nav>
+                    <i class="fas fa-bars toggle-menu"></i>
+                    <ul>
+                        <li><a class="active" href="index.html">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#price">Pricing</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                    <div class="form">
+                        <i class="fas fa-search"></i>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <!-- End header -->
+        <!-- start landing -->
+        <div class="landing">
+            <div class="overlay"></div>
+            <div class="text">
+                <div class="content">
+                    <h2>We are casper we make art</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Eum praesentium hic distinctio obcaecati dolores nobis.
+                        Quasi placeat sed consequatur voluptates, illo animi
+                        dolorum deserunt sapiente sit, ea temporibus fugit
+                        rerum?
+                    </p>
+                </div>
+            </div>
+            <i class="fas fa-angle-left change-background"></i>
+            <i class="fas fa-angle-right change-background"></i>
+            <ul class="bullets">
+                <li></li>
+                <li class="active"></li>
+                <li></li>
+            </ul>
+        </div>
+        <!-- End landing -->
+        <!-- back to top button start -->
+        <a href="#" class="back-to-top" onscroll="visable()">
+            <span class="up-arrow"><i class="fa-solid fa-arrow-up"></i></span>
         </a>
-        <nav>
-          <i class="fas fa-bars toggle-menu"></i>
-          <ul>
-            <li><a class="active" href="index.html">Home</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#price">Pricing</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-          <div class="form">
-            <i class="fas fa-search"></i>
-          </div>
-        </nav>
-      </div>
-    </header>
-    <!-- End header -->
-    <!-- start landing -->
-    <div class="landing">
-      <div class="overlay"></div>
-      <div class="text">
-        <div class="content">
-          <h2>We are casper we make art</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
-            praesentium hic distinctio obcaecati dolores nobis. Quasi placeat
-            sed consequatur voluptates, illo animi dolorum deserunt sapiente
-            sit, ea temporibus fugit rerum?
-          </p>
+        <!-- back to top button end -->
+        <!-- Start Services section -->
+        <div class="services" id="services">
+            <div class="container">
+                <!-- start main header -->
+                <div class="main-heading">
+                    <h2>Services</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Amet nobis error delectus perferendis aliquid
+                        reprehenderit itaque! Magni voluptate praesentium magnam
+                        consequuntur velit facilis nobis provident maxime,
+                        deserunt iste debitis aliquam!
+                    </p>
+                </div>
+                <!-- end main header -->
+                <!-- start services container -->
+                <div class="services-container">
+                    <!-- start srv box 1 -->
+                    <div class="srv-box">
+                        <i class="fas fa-desktop fa-3x"></i>
+                        <div class="text">
+                            <h3>vorem amet intutive</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Odio, rem aut ut, saepe
+                                expedita tempore vitae, provident quasi
+                                reiciendis nobis eligendi dignissimos molestias
+                                ratione ipsam veritatis sit a distinctio totam!
+                            </p>
+                        </div>
+                    </div>
+                    <!-- end srv box 1 -->
+                    <!-- start srv box 2 -->
+                    <div class="srv-box">
+                        <i class="fas fa-cog fa-3x"></i>
+                        <div class="text">
+                            <h3>vorem amet intutive</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Odio, rem aut ut, saepe
+                                expedita tempore vitae, provident quasi
+                                reiciendis nobis eligendi dignissimos molestias
+                                ratione ipsam veritatis sit a distinctio totam!
+                            </p>
+                        </div>
+                    </div>
+                    <!-- end srv box 2 -->
+                    <!-- start srv box 3 -->
+                    <div class="srv-box">
+                        <i class="fas fa-pencil-ruler fa-3x"></i>
+                        <div class="text">
+                            <h3>vorem amet intutive</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Odio, rem aut ut, saepe
+                                expedita tempore vitae, provident quasi
+                                reiciendis nobis eligendi dignissimos molestias
+                                ratione ipsam veritatis sit a distinctio totam!
+                            </p>
+                        </div>
+                    </div>
+                    <!-- end srv box 3 -->
+                    <!-- start srv box 4 -->
+                    <div class="srv-box">
+                        <i class="fas fa-camera fa-3x"></i>
+                        <div class="text">
+                            <h3>vorem amet intutive</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Odio, rem aut ut, saepe
+                                expedita tempore vitae, provident quasi
+                                reiciendis nobis eligendi dignissimos molestias
+                                ratione ipsam veritatis sit a distinctio totam!
+                            </p>
+                        </div>
+                    </div>
+                    <!--end srv box 4-->
+                </div>
+                <!-- end services container -->
+            </div>
         </div>
-      </div>
-      <i class="fas fa-angle-left change-background"></i>
-      <i class="fas fa-angle-right change-background"></i>
-      <ul class="bullets">
-        <li></li>
-        <li class="active"></li>
-        <li></li>
-      </ul>
-    </div>
-    <!-- End landing -->
-    <!-- back to top button start -->
-    <a href="#" class="back-to-top">
-      <span class="up-arrow"><i class="fa-solid fa-arrow-up"></i></span>
-    </a>
-    <!-- back to top button end -->
-    <!-- Start Services section -->
-    <div class="services" id="services">
-      <div class="container">
-        <!-- start main header -->
-        <div class="main-heading">
-          <h2>Services</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet nobis
-            error delectus perferendis aliquid reprehenderit itaque! Magni
-            voluptate praesentium magnam consequuntur velit facilis nobis
-            provident maxime, deserunt iste debitis aliquam!
-          </p>
-        </div>
-        <!-- end main header -->
-        <!-- start services container -->
-        <div class="services-container">
-          <!-- start srv box 1 -->
-          <div class="srv-box">
-            <i class="fas fa-desktop fa-3x"></i>
+        <!-- End Services section -->
+        <!-- Start Design -->
+        <div class="design">
+            <div class="image">
+                <img src="images/mobile.png" alt="mobile" />
+            </div>
             <div class="text">
-              <h3>vorem amet intutive</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio,
-                rem aut ut, saepe expedita tempore vitae, provident quasi
-                reiciendis nobis eligendi dignissimos molestias ratione ipsam
-                veritatis sit a distinctio totam!
-              </p>
+                <h2>Our design comes With</h2>
+                <ul>
+                    <li>Responsive Design</li>
+                    <li>Modern and Clean Design</li>
+                    <li>Clean Code</li>
+                    <li>Browser Friendly</li>
+                </ul>
             </div>
-          </div>
-          <!-- end srv box 1 -->
-          <!-- start srv box 2 -->
-          <div class="srv-box">
-            <i class="fas fa-cog fa-3x"></i>
+        </div>
+        <!-- End Design -->
+        <!-- Start portfolio -->
+        <div class="portfolio" id="portfolio">
+            <!-- start container -->
+            <div class="container">
+                <div class="main-heading">
+                    <h2>Portfolio</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Amet nobis error delectus perferendis aliquid
+                        reprehenderit itaque! Magni voluptate praesentium magnam
+                        consequuntur velit facilis nobis provident maxime,
+                        deserunt iste debitis aliquam!
+                    </p>
+                </div>
+                <ul class="shuffle">
+                    <li class="active">All</li>
+                    <li>App</li>
+                    <li>Photo</li>
+                    <li>Web</li>
+                    <li>Print</li>
+                </ul>
+            </div>
+            <!-- end container -->
+            <!-- start images container -->
+            <div class="images-container">
+                <!-- start box -->
+                <div class="box">
+                    <img src="images/shuffle-01.jpg" alt="images" />
+                    <div class="caption">
+                        <h4>Awesome Image</h4>
+                        <p>Photography</p>
+                    </div>
+                </div>
+                <!-- end box -->
+                <!-- start box -->
+                <div class="box">
+                    <img src="images/shuffle-02.jpg" alt="images" />
+                    <div class="caption">
+                        <h4>Awesome Image</h4>
+                        <p>Photography</p>
+                    </div>
+                </div>
+                <!-- end box -->
+                <!-- start box -->
+                <div class="box">
+                    <img src="images/shuffle-03.jpg" alt="images" />
+                    <div class="caption">
+                        <h4>Awesome Image</h4>
+                        <p>Photography</p>
+                    </div>
+                </div>
+                <!-- end box -->
+                <!-- start box -->
+                <div class="box">
+                    <img src="images/shuffle-04.jpg" alt="images" />
+                    <div class="caption">
+                        <h4>Awesome Image</h4>
+                        <p>Photography</p>
+                    </div>
+                </div>
+                <!-- end box -->
+                <!-- start box -->
+                <div class="box">
+                    <img src="images/shuffle-05.jpg" alt="images" />
+                    <div class="caption">
+                        <h4>Awesome Image</h4>
+                        <p>Photography</p>
+                    </div>
+                </div>
+                <!-- end box -->
+                <!-- start box -->
+                <div class="box">
+                    <img src="images/shuffle-06.jpg" alt="images" />
+                    <div class="caption">
+                        <h4>Awesome Image</h4>
+                        <p>Photography</p>
+                    </div>
+                </div>
+                <!-- end box -->
+                <!-- start box -->
+                <div class="box">
+                    <img src="images/shuffle-07.jpg" alt="images" />
+                    <div class="caption">
+                        <h4>Awesome Image</h4>
+                        <p>Photography</p>
+                    </div>
+                </div>
+                <!-- end box -->
+                <!-- start box -->
+                <div class="box">
+                    <img src="images/shuffle-08.jpg" alt="images" />
+                    <div class="caption">
+                        <h4>Awesome Image</h4>
+                        <p>Photography</p>
+                    </div>
+                </div>
+                <!-- end box -->
+            </div>
+            <!-- end images container -->
+            <a href="" class="more">More</a>
+        </div>
+        <!-- End protfolio -->
+        <!-- start video -->
+        <div class="video">
+            <video autoplay muted loop>
+                <source src="videos/awesome-video.mp4" type="video/mp4" />
+            </video>
             <div class="text">
-              <h3>vorem amet intutive</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio,
-                rem aut ut, saepe expedita tempore vitae, provident quasi
-                reiciendis nobis eligendi dignissimos molestias ratione ipsam
-                veritatis sit a distinctio totam!
-              </p>
+                <h2>Super Awsome Video Here</h2>
+                <p>Its All You Need</p>
+                <button>see more</button>
             </div>
-          </div>
-          <!-- end srv box 2 -->
-          <!-- start srv box 3 -->
-          <div class="srv-box">
-            <i class="fas fa-pencil-ruler fa-3x"></i>
-            <div class="text">
-              <h3>vorem amet intutive</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio,
-                rem aut ut, saepe expedita tempore vitae, provident quasi
-                reiciendis nobis eligendi dignissimos molestias ratione ipsam
-                veritatis sit a distinctio totam!
-              </p>
+        </div>
+        <!-- end video -->
+        <!-- start about  -->
+        <div class="about" id="about">
+            <div class="container">
+                <div class="main-heading">
+                    <h2>ABOUT US</h2>
+                    <p>
+                        Curabitur arcu erat, accumsan id imperdiet et, porttitor
+                        at sem. Mauris blandit aliquet elit, eget tincidunt.
+                    </p>
+                </div>
+                <img src="images/about.png" alt="about image" />
             </div>
-          </div>
-          <!-- end srv box 3 -->
-          <!-- start srv box 4 -->
-          <div class="srv-box">
-            <i class="fas fa-camera fa-3x"></i>
-            <div class="text">
-              <h3>vorem amet intutive</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio,
-                rem aut ut, saepe expedita tempore vitae, provident quasi
-                reiciendis nobis eligendi dignissimos molestias ratione ipsam
-                veritatis sit a distinctio totam!
-              </p>
+        </div>
+        <!-- end about -->
+        <!-- Start stats -->
+        <div class="stats">
+            <div class="container">
+                <!-- start box -->
+                <div class="box">
+                    <i class="fas fa-mug-hot"></i>
+                    <div class="number">1236</div>
+                    <p>Coffee Drinks</p>
+                </div>
+                <!-- end box -->
+                <!-- start box -->
+                <div class="box">
+                    <i class="fas fa-folder"></i>
+                    <div class="number">256</div>
+                    <p>Completed Projects</p>
+                </div>
+                <!-- end box -->
+                <!-- start box -->
+                <div class="box">
+                    <i class="fas fa-envelope"></i>
+                    <div class="number">1,743</div>
+                    <p>Mail Sent</p>
+                </div>
+                <!-- end box -->
+                <!-- start box -->
+                <div class="box">
+                    <i class="fas fa-trophy"></i>
+                    <div class="number">17</div>
+                    <p>Award Recived</p>
+                </div>
+                <!-- end box -->
             </div>
-          </div>
-          <!--end srv box 4-->
         </div>
-        <!-- end services container -->
-      </div>
-    </div>
-    <!-- End Services section -->
-    <!-- Start Design -->
-    <div class="design">
-      <div class="image">
-        <img src="images/mobile.png" alt="mobile" />
-      </div>
-      <div class="text">
-        <h2>Our design comes With</h2>
-        <ul>
-          <li>Responsive Design</li>
-          <li>Modern and Clean Design</li>
-          <li>Clean Code</li>
-          <li>Browser Friendly</li>
-        </ul>
-      </div>
-    </div>
-    <!-- End Design -->
-    <!-- Start portfolio -->
-    <div class="portfolio" id="portfolio">
-      <!-- start container -->
-      <div class="container">
-        <div class="main-heading">
-          <h2>Portfolio</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet nobis
-            error delectus perferendis aliquid reprehenderit itaque! Magni
-            voluptate praesentium magnam consequuntur velit facilis nobis
-            provident maxime, deserunt iste debitis aliquam!
-          </p>
-        </div>
-        <ul class="shuffle">
-          <li class="active">All</li>
-          <li>App</li>
-          <li>Photo</li>
-          <li>Web</li>
-          <li>Print</li>
-        </ul>
-      </div>
-      <!-- end container -->
-      <!-- start images container -->
-      <div class="images-container">
-        <!-- start box -->
-        <div class="box">
-          <img src="images/shuffle-01.jpg" alt="images" />
-          <div class="caption">
-            <h4>Awesome Image</h4>
-            <p>Photography</p>
-          </div>
-        </div>
-        <!-- end box -->
-        <!-- start box -->
-        <div class="box">
-          <img src="images/shuffle-02.jpg" alt="images" />
-          <div class="caption">
-            <h4>Awesome Image</h4>
-            <p>Photography</p>
-          </div>
-        </div>
-        <!-- end box -->
-        <!-- start box -->
-        <div class="box">
-          <img src="images/shuffle-03.jpg" alt="images" />
-          <div class="caption">
-            <h4>Awesome Image</h4>
-            <p>Photography</p>
-          </div>
-        </div>
-        <!-- end box -->
-        <!-- start box -->
-        <div class="box">
-          <img src="images/shuffle-04.jpg" alt="images" />
-          <div class="caption">
-            <h4>Awesome Image</h4>
-            <p>Photography</p>
-          </div>
-        </div>
-        <!-- end box -->
-        <!-- start box -->
-        <div class="box">
-          <img src="images/shuffle-05.jpg" alt="images" />
-          <div class="caption">
-            <h4>Awesome Image</h4>
-            <p>Photography</p>
-          </div>
-        </div>
-        <!-- end box -->
-        <!-- start box -->
-        <div class="box">
-          <img src="images/shuffle-06.jpg" alt="images" />
-          <div class="caption">
-            <h4>Awesome Image</h4>
-            <p>Photography</p>
-          </div>
-        </div>
-        <!-- end box -->
-        <!-- start box -->
-        <div class="box">
-          <img src="images/shuffle-07.jpg" alt="images" />
-          <div class="caption">
-            <h4>Awesome Image</h4>
-            <p>Photography</p>
-          </div>
-        </div>
-        <!-- end box -->
-        <!-- start box -->
-        <div class="box">
-          <img src="images/shuffle-08.jpg" alt="images" />
-          <div class="caption">
-            <h4>Awesome Image</h4>
-            <p>Photography</p>
-          </div>
-        </div>
-        <!-- end box -->
-      </div>
-      <!-- end images container -->
-      <a href="" class="more">More</a>
-    </div>
-    <!-- End protfolio -->
-    <!-- start video -->
-    <div class="video">
-      <video autoplay muted loop>
-        <source src="videos/awesome-video.mp4" type="video/mp4" />
-      </video>
-      <div class="text">
-        <h2>Super Awsome Video Here</h2>
-        <p>Its All You Need</p>
-        <button>see more</button>
-      </div>
-    </div>
-    <!-- end video -->
-    <!-- start about  -->
-    <div class="about" id="about">
-      <div class="container">
-        <div class="main-heading">
-          <h2>ABOUT US</h2>
-          <p>
-            Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
-            Mauris blandit aliquet elit, eget tincidunt.
-          </p>
-        </div>
-        <img src="images/about.png" alt="about image" />
-      </div>
-    </div>
-    <!-- end about -->
-    <!-- Start stats -->
-    <div class="stats">
-      <div class="container">
-        <!-- start box -->
-        <div class="box">
-          <i class="fas fa-mug-hot"></i>
-          <div class="number">1236</div>
-          <p>Coffee Drinks</p>
-        </div>
-        <!-- end box -->
-        <!-- start box -->
-        <div class="box">
-          <i class="fas fa-folder"></i>
-          <div class="number">256</div>
-          <p>Completed Projects</p>
-        </div>
-        <!-- end box -->
-        <!-- start box -->
-        <div class="box">
-          <i class="fas fa-envelope"></i>
-          <div class="number">1,743</div>
-          <p>Mail Sent</p>
-        </div>
-        <!-- end box -->
-        <!-- start box -->
-        <div class="box">
-          <i class="fas fa-trophy"></i>
-          <div class="number">17</div>
-          <p>Award Recived</p>
-        </div>
-        <!-- end box -->
-      </div>
-    </div>
-    <!-- end stats -->
-    <!-- start skills -->
-    <div class="our-skills">
-      <div class="container">
-        <div class="testimonials">
-          <h3>testimonials</h3>
-          <p>
-            Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
-            Mauris blandit aliquet elit, eget tincidunt.
-          </p>
-          <!-- start content -->
-          <div class="content">
-            <img src="images/skills-01.jpg" alt="" />
-            <div class="text">
-              Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
-              Mauris blandit aliquet elit, eget tincidunt.
-              <p>John Doe, CEO</p>
+        <!-- end stats -->
+        <!-- start skills -->
+        <div class="our-skills">
+            <div class="container">
+                <div class="testimonials">
+                    <h3>testimonials</h3>
+                    <p>
+                        Curabitur arcu erat, accumsan id imperdiet et, porttitor
+                        at sem. Mauris blandit aliquet elit, eget tincidunt.
+                    </p>
+                    <!-- start content -->
+                    <div class="content">
+                        <img src="images/skills-01.jpg" alt="" />
+                        <div class="text">
+                            Curabitur arcu erat, accumsan id imperdiet et,
+                            porttitor at sem. Mauris blandit aliquet elit, eget
+                            tincidunt.
+                            <p>John Doe, CEO</p>
+                        </div>
+                    </div>
+                    <!-- end content -->
+                    <!-- start content -->
+                    <div class="content">
+                        <img src="images/skills-02.jpg" alt="" />
+                        <div class="text">
+                            Curabitur arcu erat, accumsan id imperdiet et,
+                            porttitor at sem. Mauris blandit aliquet elit, eget
+                            tincidunt.
+                            <p>John Doe, CEO</p>
+                        </div>
+                    </div>
+                    <!-- end content -->
+                    <ul class="bullets">
+                        <li></li>
+                        <li class="active"></li>
+                        <li></li>
+                    </ul>
+                </div>
+                <div class="skills">
+                    <h3>skills</h3>
+                    <p>
+                        Curabitur arcu erat, accumsan id imperdiet et, porttitor
+                        at sem. Mauris blandit aliquet elit, eget tincidunt.
+                    </p>
+                    <!-- start progress -->
+                    <div class="prog-holder">
+                        <h4>Adope</h4>
+                        <div class="prog">
+                            <span style="width: 60%" data-progress="60%"></span>
+                        </div>
+                    </div>
+                    <!-- end progress -->
+                    <!-- start progress -->
+                    <div class="prog-holder">
+                        <h4>Html &amp; Css</h4>
+                        <div class="prog">
+                            <span style="width: 80%" data-progress="80%"></span>
+                        </div>
+                    </div>
+                    <!-- end progress -->
+                    <!-- start progress -->
+                    <div class="prog-holder">
+                        <h4>JavaScript</h4>
+                        <div class="prog">
+                            <span style="width: 60%" data-progress="60%"></span>
+                        </div>
+                    </div>
+                    <!-- end progress -->
+                    <!-- start progress -->
+                    <div class="prog-holder">
+                        <h4>Python</h4>
+                        <div class="prog">
+                            <span style="width: 85%" data-progress="85%"></span>
+                        </div>
+                    </div>
+                    <!-- end progress -->
+                </div>
             </div>
-          </div>
-          <!-- end content -->
-          <!-- start content -->
-          <div class="content">
-            <img src="images/skills-02.jpg" alt="" />
-            <div class="text">
-              Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
-              Mauris blandit aliquet elit, eget tincidunt.
-              <p>John Doe, CEO</p>
-            </div>
-          </div>
-          <!-- end content -->
-          <ul class="bullets">
-            <li></li>
-            <li class="active"></li>
-            <li></li>
-          </ul>
         </div>
-        <div class="skills">
-          <h3>skills</h3>
-          <p>
-            Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
-            Mauris blandit aliquet elit, eget tincidunt.
-          </p>
-          <!-- start progress -->
-          <div class="prog-holder">
-            <h4>Adope</h4>
-            <div class="prog">
-              <span style="width: 60%" data-progress="60%"></span>
+        <!-- end skills -->
+        <!-- start quote -->
+        <div class="quote">
+            <div class="container">
+                <q
+                    >accumsan id imperdiet et, porttitor at sem. Mauris blandit
+                    aliquet elit, eget tincidunt.</q
+                >
+                <span>John Doe</span>
             </div>
-          </div>
-          <!-- end progress -->
-          <!-- start progress -->
-          <div class="prog-holder">
-            <h4>Html &amp; Css</h4>
-            <div class="prog">
-              <span style="width: 80%" data-progress="80%"></span>
-            </div>
-          </div>
-          <!-- end progress -->
-          <!-- start progress -->
-          <div class="prog-holder">
-            <h4>JavaScript</h4>
-            <div class="prog">
-              <span style="width: 60%" data-progress="60%"></span>
-            </div>
-          </div>
-          <!-- end progress -->
-          <!-- start progress -->
-          <div class="prog-holder">
-            <h4>Python</h4>
-            <div class="prog">
-              <span style="width: 85%" data-progress="85%"></span>
-            </div>
-          </div>
-          <!-- end progress -->
         </div>
-      </div>
-    </div>
-    <!-- end skills -->
-    <!-- start quote -->
-    <div class="quote">
-      <div class="container">
-        <q
-          >accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet
-          elit, eget tincidunt.</q
-        >
-        <span>John Doe</span>
-      </div>
-    </div>
-    <!-- end quote -->
-    <!-- start pricing -->
-    <div class="pricing" id="price">
-      <div class="container">
-        <div class="main-heading">
-          <h2>Pricing</h2>
-          <p>
-            Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
-            Mauris blandit aliquet elit, eget tincidunt.
-          </p>
-        </div>
+        <!-- end quote -->
+        <!-- start pricing -->
+        <div class="pricing" id="price">
+            <div class="container">
+                <div class="main-heading">
+                    <h2>Pricing</h2>
+                    <p>
+                        Curabitur arcu erat, accumsan id imperdiet et, porttitor
+                        at sem. Mauris blandit aliquet elit, eget tincidunt.
+                    </p>
+                </div>
 
-        <div class="plans">
-          <!-- start plan 1 -->
-          <div class="plan">
-            <div class="head">
-              <h3>Basic</h3>
-              <span>19</span>
-            </div>
-            <ul>
-              <li>Feature No 1</li>
-              <li>Extra Feature</li>
-              <li>Extra Featrue No 2</li>
-              <li>Feature</li>
-            </ul>
-            <div class="foot">
-              <a href="#">Buy now</a>
-            </div>
-          </div>
-          <!-- end plan 1 -->
-          <!-- start plan 2 -->
-          <div class="plan">
-            <div class="head">
-              <h3>premium</h3>
-              <span>29</span>
-            </div>
-            <ul>
-              <li>Feature No 1</li>
-              <li>Extra Feature</li>
-              <li>Extra Featrue No 2</li>
-              <li>Feature</li>
-            </ul>
-            <div class="foot">
-              <a href="#">Buy now</a>
-            </div>
-          </div>
-          <!-- end plan 2 -->
-          <!-- start plan 3 -->
-          <div class="plan">
-            <div class="head">
-              <h3>pro</h3>
-              <span>39</span>
-            </div>
+                <div class="plans">
+                    <!-- start plan 1 -->
+                    <div class="plan">
+                        <div class="head">
+                            <h3>Basic</h3>
+                            <span>19</span>
+                        </div>
+                        <ul>
+                            <li>Feature No 1</li>
+                            <li>Extra Feature</li>
+                            <li>Extra Featrue No 2</li>
+                            <li>Feature</li>
+                        </ul>
+                        <div class="foot">
+                            <a href="#">Buy now</a>
+                        </div>
+                    </div>
+                    <!-- end plan 1 -->
+                    <!-- start plan 2 -->
+                    <div class="plan">
+                        <div class="head">
+                            <h3>premium</h3>
+                            <span>29</span>
+                        </div>
+                        <ul>
+                            <li>Feature No 1</li>
+                            <li>Extra Feature</li>
+                            <li>Extra Featrue No 2</li>
+                            <li>Feature</li>
+                        </ul>
+                        <div class="foot">
+                            <a href="#">Buy now</a>
+                        </div>
+                    </div>
+                    <!-- end plan 2 -->
+                    <!-- start plan 3 -->
+                    <div class="plan">
+                        <div class="head">
+                            <h3>pro</h3>
+                            <span>39</span>
+                        </div>
 
-            <ul>
-              <li>Feature No 1</li>
-              <li>Extra Feature</li>
-              <li>Extra Featrue No 2</li>
-              <li>Feature</li>
-            </ul>
-            <div class="foot">
-              <a href="#">Buy now</a>
-            </div>
-          </div>
-          <!-- end plan 3 -->
-          <!-- start plan 4 -->
-          <div class="plan">
-            <div class="head">
-              <h3>paltinum</h3>
-              <span>49</span>
-            </div>
+                        <ul>
+                            <li>Feature No 1</li>
+                            <li>Extra Feature</li>
+                            <li>Extra Featrue No 2</li>
+                            <li>Feature</li>
+                        </ul>
+                        <div class="foot">
+                            <a href="#">Buy now</a>
+                        </div>
+                    </div>
+                    <!-- end plan 3 -->
+                    <!-- start plan 4 -->
+                    <div class="plan">
+                        <div class="head">
+                            <h3>paltinum</h3>
+                            <span>49</span>
+                        </div>
 
-            <ul>
-              <li>Feature No 1</li>
-              <li>Extra Feature</li>
-              <li>Extra Featrue No 2</li>
-              <li>Feature</li>
-            </ul>
-            <div class="foot">
-              <a href="#">Buy now</a>
+                        <ul>
+                            <li>Feature No 1</li>
+                            <li>Extra Feature</li>
+                            <li>Extra Featrue No 2</li>
+                            <li>Feature</li>
+                        </ul>
+                        <div class="foot">
+                            <a href="#">Buy now</a>
+                        </div>
+                    </div>
+                    <!-- end plan 4 -->
+                </div>
+                <p class="contact-us">
+                    contact us if you have a special request
+                </p>
+                <a href="#" class="contact-link">Contact us</a>
             </div>
-          </div>
-          <!-- end plan 4 -->
         </div>
-        <p class="contact-us">contact us if you have a special request</p>
-        <a href="#" class="contact-link">Contact us</a>
-      </div>
-    </div>
-    <!-- end pricing -->
-    <!-- start subscribe section -->
-    <div class="subscribe">
-      <div class="container">
-        <form action="">
-          <i class="far fa-envelope fa-lg"></i>
-          <input type="email" name="mail" placeholder="Your Email" />
-          <input type="submit" name="subscribe" />
-        </form>
-        <p>
-          Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
-          Mauris blan dit aliquet elit, eget tincidunt.
-        </p>
-      </div>
-    </div>
-    <!-- end subscribe section -->
-    <!-- contact us start -->
-    <div class="contact" id="contact">
-      <div class="container">
-        <div class="main-heading">
-          <h2>contanct us</h2>
-          <p>
-            Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
-            Mauris blandit aliquet elit, eget tincidunt.
-          </p>
+        <!-- end pricing -->
+        <!-- start subscribe section -->
+        <div class="subscribe">
+            <div class="container">
+                <form action="">
+                    <i class="far fa-envelope fa-lg"></i>
+                    <input type="email" name="mail" placeholder="Your Email" />
+                    <input type="submit" name="subscribe" />
+                </form>
+                <p>
+                    Curabitur arcu erat, accumsan id imperdiet et, porttitor at
+                    sem. Mauris blan dit aliquet elit, eget tincidunt.
+                </p>
+            </div>
         </div>
-        <div class="content">
-          <form action="">
-            <input
-              class="main-input"
-              type="text"
-              name="name"
-              placeholder="your name"
-            />
-            <input
-              class="main-input"
-              type="email"
-              name="email"
-              placeholder="your email"
-            />
-            <textarea
-              class="main-input"
-              type="text"
-              name="massage"
-              placeholder="Your massage"
-            ></textarea>
-            <input type="submit" value="Send massage" />
-          </form>
-          <div class="info">
-            <h4>Get In touch</h4>
-            <span class="phone">+905123456789</span>
-            <span class="phone">+905123456789</span>
-            <h4>Where We Are</h4>
-            <address>
-              Awesome Adress 17 <br />
-              New York, NYC <br />123-4567-890 <br />
-              USA
-            </address>
-          </div>
+        <!-- end subscribe section -->
+        <!-- contact us start -->
+        <div class="contact" id="contact">
+            <div class="container">
+                <div class="main-heading">
+                    <h2>contanct us</h2>
+                    <p>
+                        Curabitur arcu erat, accumsan id imperdiet et, porttitor
+                        at sem. Mauris blandit aliquet elit, eget tincidunt.
+                    </p>
+                </div>
+                <div class="content">
+                    <form action="">
+                        <input
+                            class="main-input"
+                            type="text"
+                            name="name"
+                            placeholder="your name"
+                        />
+                        <input
+                            class="main-input"
+                            type="email"
+                            name="email"
+                            placeholder="your email"
+                        />
+                        <textarea
+                            class="main-input"
+                            type="text"
+                            name="massage"
+                            placeholder="Your massage"
+                        ></textarea>
+                        <input type="submit" value="Send massage" />
+                    </form>
+                    <div class="info">
+                        <h4>Get In touch</h4>
+                        <span class="phone">+905123456789</span>
+                        <span class="phone">+905123456789</span>
+                        <h4>Where We Are</h4>
+                        <address>
+                            Awesome Adress 17 <br />
+                            New York, NYC <br />123-4567-890 <br />
+                            USA
+                        </address>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-    <!-- contact us end -->
-    <!-- start footer -->
-    <div class="footer">
-      <div class="container">
-        <img src="images/logo.png" alt="logo" />
-        <p>Our Socials</p>
-        <ul class="social-icons">
-          <a href="https://x.com/super__nov4?t=fqjRTTY3WpYM-gz3OlKUEA&s=09"
-            ><i class="fa-brands fa-x-twitter"></i
-          ></a>
-          <a href="https://www.linkedin.com/in/suleiman-mubarak-b801b9298">
-            <i class="fab fa-linkedin"></i>
-          </a>
-          <a href="#"><i class="fas fa-home"></i></a>
-          <a href="https://github.com/Suleiman010"
-            ><i class="fa-brands fa-github"></i
-          ></a>
-        </ul>
-        <p class="copy-right">
-          &copy; 2024 <span>Kasper</span> All Rights Reserved
-        </p>
-      </div>
-    </div>
-    <!-- end footer -->
-  </body>
+        <!-- contact us end -->
+        <!-- start footer -->
+        <div class="footer">
+            <div class="container">
+                <img src="images/logo.png" alt="logo" />
+                <p>Our Socials</p>
+                <ul class="social-icons">
+                    <a
+                        href="https://x.com/super__nov4?t=fqjRTTY3WpYM-gz3OlKUEA&s=09"
+                        ><i class="fa-brands fa-x-twitter"></i
+                    ></a>
+                    <a
+                        href="https://www.linkedin.com/in/suleiman-mubarak-b801b9298"
+                    >
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="#"><i class="fas fa-home"></i></a>
+                    <a href="https://github.com/Suleiman010"
+                        ><i class="fa-brands fa-github"></i
+                    ></a>
+                </ul>
+                <p class="copy-right">
+                    &copy; 2024 <span>Kasper</span> All Rights Reserved
+                </p>
+            </div>
+        </div>
+        <!-- end footer -->
+        <script src="main.js"></script>
+    </body>
 </html>
