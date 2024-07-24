@@ -148,7 +148,7 @@ header nav ul {
         position: absolute;
         top: 100%;
         width: 50%;
-        left: 100%;
+        display:none;
         background-color: rgba(0, 0, 0, 0.425);
         transition: var(--transion-time);
     }
